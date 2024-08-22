@@ -1,0 +1,125 @@
+/* Democratic Party-Inspired Header */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    scroll-behavior: smooth; /* Smooth scrolling */
+}
+
+header {
+    background-color: #ffffff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    border-radius: 50px;
+    height: 80px;
+    width: auto;
+}
+
+.header-links {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    padding: 10px 0;
+}
+
+#dif0co {
+    color: white;
+}
+
+.header-links a {
+    color: #0B1836;
+    text-decoration: none;
+    font-family: "balto", sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    text-transform: capitalize;
+    padding: 10px 0;
+    margin-right: 20px;
+    font-size: calc(14px + 2*(100vw - 375px) / 1065);
+    letter-spacing: 0.03em;
+    transition: all 0.3s ease-in-out;
+}
+
+.header-links a:hover {
+    color: #cc0000;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+.container img {
+    width: 100%;
+    max-width: 1200px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50px;
+}
+
+.donate-button {
+    background-color: #cc0000;
+    color: rgb(255 255 255);
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.donate-button:hover {
+    background-color: white;
+    color: #ff0000;
+    border: #cc0000;
+}
+
+.donate-button-2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #cc0000;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+/* Styles for Taking Action Section */
+section#taking-action {
+    padding: 4rem 2rem;
+    background-color: #ffffff; /* Distinct background color */
+    color: rgb(0, 0, 0);
+    text-align: left;
+    margin-top: 150px;
+    min-height: 100px;
+}
+
+section#taking-action h1 {
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+}
+
+section#taking-action p {
+    max-width: 800px;
+    margin: 1;
+    font-size: 1.125rem;
+    line-height: 1.6;
+}
